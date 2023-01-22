@@ -1,0 +1,59 @@
+body {
+    background: #ebefdb;
+}
+
+#resume-body {
+    background: #c3843baa;
+    padding: 1px 20px;
+    margin: 7rem;
+    border: 12px solid #788748;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 35px;
+}
+
+h2 {
+    margin: 5px 0;
+    border-bottom: 1px dotted #283618;
+    color: #283618;
+}
+
+h1,
+h3,
+h4 {
+    margin: 5px;
+    color: #283618ed;
+}
+
+#about {
+    text-indent: 25px;
+}
+
+p,
+ul {
+    color: #414c1b;
+}
+
+h3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-36 {
+    background: #788748;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border-color: #283618ed;
+    color: #283618ed;
+    flex-shrink: 0;
+    height: 2rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    touch-action: manipulation;
+}
+
+.button-36:hover {
+    box-shadow: #788748 0 1px 30px;
+    transition-duration: .1s;
+}
